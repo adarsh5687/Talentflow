@@ -1,0 +1,785 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior Frontend Developer",
+      "company": "TechCorp Inc.",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "salary": "$120,000 - $150,000",
+      "description": "We are looking for a Senior Frontend Developer to join our dynamic team. You will be responsible for developing user-facing web applications using modern JavaScript frameworks.",
+      "requirements": [
+        "5+ years of experience in frontend development",
+        "Expert knowledge of React, TypeScript, and modern JavaScript",
+        "Experience with state management libraries (Redux, Zustand)",
+        "Strong understanding of responsive design and CSS frameworks",
+        "Experience with testing frameworks (Jest, React Testing Library)"
+      ],
+      "benefits": [
+        "Competitive salary and equity",
+        "Health, dental, and vision insurance",
+        "Flexible work arrangements",
+        "Professional development budget",
+        "Unlimited PTO"
+      ],
+      "postedDate": "2024-01-15",
+      "applicationDeadline": "2024-02-15",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "title": "Backend Engineer",
+      "company": "DataFlow Solutions",
+      "location": "New York, NY",
+      "type": "Full-time",
+      "salary": "$110,000 - $140,000",
+      "description": "Join our backend team to build scalable and robust server-side applications. You'll work with microservices architecture and cloud technologies.",
+      "requirements": [
+        "4+ years of backend development experience",
+        "Proficiency in Node.js, Python, or Java",
+        "Experience with databases (PostgreSQL, MongoDB)",
+        "Knowledge of cloud platforms (AWS, Azure, GCP)",
+        "Understanding of microservices architecture"
+      ],
+      "benefits": [
+        "Competitive compensation package",
+        "Comprehensive health benefits",
+        "Remote work options",
+        "Learning and development opportunities",
+        "Stock options"
+      ],
+      "postedDate": "2024-01-20",
+      "applicationDeadline": "2024-02-20",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "title": "Full Stack Developer",
+      "company": "StartupX",
+      "location": "Austin, TX",
+      "type": "Full-time",
+      "salary": "$90,000 - $120,000",
+      "description": "We're seeking a versatile Full Stack Developer to work on both frontend and backend systems. You'll be part of a small, agile team building innovative products.",
+      "requirements": [
+        "3+ years of full stack development experience",
+        "Experience with React and Node.js",
+        "Knowledge of databases and API design",
+        "Familiarity with DevOps practices",
+        "Strong problem-solving skills"
+      ],
+      "benefits": [
+        "Equity participation",
+        "Health and wellness benefits",
+        "Flexible schedule",
+        "Modern tech stack",
+        "Growth opportunities"
+      ],
+      "postedDate": "2024-01-25",
+      "applicationDeadline": "2024-02-25",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "title": "DevOps Engineer",
+      "company": "CloudTech Systems",
+      "location": "Seattle, WA",
+      "type": "Full-time",
+      "salary": "$130,000 - $160,000",
+      "description": "Looking for a DevOps Engineer to manage our cloud infrastructure and deployment pipelines. You'll work with cutting-edge technologies and automation tools.",
+      "requirements": [
+        "5+ years of DevOps/Infrastructure experience",
+        "Expertise in AWS/Azure cloud platforms",
+        "Experience with Docker, Kubernetes",
+        "Knowledge of CI/CD pipelines",
+        "Scripting skills (Python, Bash)"
+      ],
+      "benefits": [
+        "Top-tier compensation",
+        "Comprehensive benefits package",
+        "Work-life balance",
+        "Technology allowance",
+        "Conference attendance budget"
+      ],
+      "postedDate": "2024-01-30",
+      "applicationDeadline": "2024-03-01",
+      "status": "active"
+    },
+    {
+      "id": "5",
+      "title": "Mobile App Developer",
+      "company": "MobileFirst Ltd",
+      "location": "Los Angeles, CA",
+      "type": "Full-time",
+      "salary": "$100,000 - $130,000",
+      "description": "Join our mobile development team to create innovative iOS and Android applications. You'll work on consumer-facing apps with millions of users.",
+      "requirements": [
+        "4+ years of mobile development experience",
+        "Proficiency in React Native or Flutter",
+        "Experience with native development (iOS/Android)",
+        "Knowledge of mobile UI/UX principles",
+        "App store deployment experience"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Health benefits",
+        "Flexible work arrangements",
+        "Device allowance",
+        "Professional development"
+      ],
+      "postedDate": "2024-02-01",
+      "applicationDeadline": "2024-03-01",
+      "status": "active"
+    },
+    {
+      "id": "6",
+      "title": "Data Scientist",
+      "company": "Analytics Pro",
+      "location": "Boston, MA",
+      "type": "Full-time",
+      "salary": "$115,000 - $145,000",
+      "description": "We're looking for a Data Scientist to analyze large datasets and build predictive models. You'll work with machine learning algorithms and statistical analysis.",
+      "requirements": [
+        "PhD or Masters in Data Science, Statistics, or related field",
+        "3+ years of data science experience",
+        "Proficiency in Python, R, SQL",
+        "Experience with ML frameworks (TensorFlow, PyTorch)",
+        "Strong statistical analysis skills"
+      ],
+      "benefits": [
+        "Excellent compensation",
+        "Research-friendly environment",
+        "Conference sponsorship",
+        "Flexible hours",
+        "Health and dental insurance"
+      ],
+      "postedDate": "2024-02-05",
+      "applicationDeadline": "2024-03-05",
+      "status": "active"
+    },
+    {
+      "id": "7",
+      "title": "UI/UX Designer",
+      "company": "DesignHub Agency",
+      "location": "Portland, OR",
+      "type": "Full-time",
+      "salary": "$80,000 - $110,000",
+      "description": "Creative UI/UX Designer needed to design intuitive and beautiful user interfaces. You'll work on web and mobile applications for various clients.",
+      "requirements": [
+        "3+ years of UI/UX design experience",
+        "Proficiency in Figma, Sketch, Adobe Creative Suite",
+        "Strong portfolio demonstrating design skills",
+        "Understanding of user research and testing",
+        "Knowledge of design systems and accessibility"
+      ],
+      "benefits": [
+        "Creative work environment",
+        "Health benefits",
+        "Flexible schedule",
+        "Design tool subscriptions",
+        "Professional development budget"
+      ],
+      "postedDate": "2024-02-10",
+      "applicationDeadline": "2024-03-10",
+      "status": "active"
+    },
+    {
+      "id": "8",
+      "title": "Product Manager",
+      "company": "ProductTech Inc",
+      "location": "Chicago, IL",
+      "type": "Full-time",
+      "salary": "$125,000 - $155,000",
+      "description": "Product Manager role to lead product strategy and development. You'll work closely with engineering, design, and business teams to deliver successful products.",
+      "requirements": [
+        "5+ years of product management experience",
+        "Experience with agile methodologies",
+        "Strong analytical and communication skills",
+        "Understanding of tech product lifecycle",
+        "MBA or equivalent experience preferred"
+      ],
+      "benefits": [
+        "Leadership opportunities",
+        "Comprehensive benefits",
+        "Stock options",
+        "Flexible work policy",
+        "Career advancement paths"
+      ],
+      "postedDate": "2024-02-12",
+      "applicationDeadline": "2024-03-12",
+      "status": "active"
+    },
+    {
+      "id": "9",
+      "title": "QA Engineer",
+      "company": "QualityFirst Solutions",
+      "location": "Denver, CO",
+      "type": "Full-time",
+      "salary": "$85,000 - $110,000",
+      "description": "Quality Assurance Engineer to ensure our software meets the highest standards. You'll develop test plans, automate testing processes, and work closely with development teams.",
+      "requirements": [
+        "4+ years of QA/Testing experience",
+        "Experience with automated testing tools",
+        "Knowledge of testing methodologies",
+        "Programming skills for test automation",
+        "Strong attention to detail"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Health insurance",
+        "Professional development",
+        "Flexible hours",
+        "Quality-focused culture"
+      ],
+      "postedDate": "2024-02-15",
+      "applicationDeadline": "2024-03-15",
+      "status": "active"
+    },
+    {
+      "id": "10",
+      "title": "Security Engineer",
+      "company": "SecureNet Corp",
+      "location": "Washington, DC",
+      "type": "Full-time",
+      "salary": "$140,000 - $170,000",
+      "description": "Cybersecurity Engineer to protect our systems and data. You'll implement security measures, conduct security assessments, and respond to security incidents.",
+      "requirements": [
+        "5+ years of cybersecurity experience",
+        "Knowledge of security frameworks and standards",
+        "Experience with penetration testing",
+        "Understanding of network security",
+        "Security certifications preferred (CISSP, CEH)"
+      ],
+      "benefits": [
+        "High compensation",
+        "Security clearance opportunities",
+        "Comprehensive benefits",
+        "Certification support",
+        "Cutting-edge security tools"
+      ],
+      "postedDate": "2024-02-18",
+      "applicationDeadline": "2024-03-18",
+      "status": "active"
+    },
+    {
+      "id": "11",
+      "title": "Machine Learning Engineer",
+      "company": "AI Innovations",
+      "location": "Palo Alto, CA",
+      "type": "Full-time",
+      "salary": "$150,000 - $180,000",
+      "description": "ML Engineer to build and deploy machine learning models at scale. You'll work on cutting-edge AI projects and production ML systems.",
+      "requirements": [
+        "PhD or Masters in ML, AI, or related field",
+        "4+ years of ML engineering experience",
+        "Expertise in Python, TensorFlow, PyTorch",
+        "Experience with MLOPs and model deployment",
+        "Strong mathematical and statistical background"
+      ],
+      "benefits": [
+        "Top-tier compensation",
+        "Research opportunities",
+        "GPU computing resources",
+        "Conference attendance",
+        "Innovation time allocation"
+      ],
+      "postedDate": "2024-02-20",
+      "applicationDeadline": "2024-03-20",
+      "status": "active"
+    },
+    {
+      "id": "12",
+      "title": "Cloud Architect",
+      "company": "CloudSolutions Enterprise",
+      "location": "Atlanta, GA",
+      "type": "Full-time",
+      "salary": "$145,000 - $175,000",
+      "description": "Senior Cloud Architect to design and implement cloud infrastructure solutions. You'll lead cloud migration projects and optimize cloud architectures.",
+      "requirements": [
+        "7+ years of cloud architecture experience",
+        "Expert knowledge of AWS/Azure/GCP",
+        "Experience with infrastructure as code",
+        "Strong understanding of cloud security",
+        "Leadership and mentoring experience"
+      ],
+      "benefits": [
+        "Senior-level compensation",
+        "Leadership opportunities",
+        "Cloud certification support",
+        "Flexible work environment",
+        "Technical leadership role"
+      ],
+      "postedDate": "2024-02-22",
+      "applicationDeadline": "2024-03-22",
+      "status": "active"
+    },
+    {
+      "id": "13",
+      "title": "Frontend React Developer",
+      "company": "ReactExperts LLC",
+      "location": "Miami, FL",
+      "type": "Contract",
+      "salary": "$70 - $90 per hour",
+      "description": "Contract React Developer for a 6-month project. You'll build a complex web application with modern React patterns and state management.",
+      "requirements": [
+        "3+ years of React development experience",
+        "Strong TypeScript skills",
+        "Experience with Redux Toolkit",
+        "Knowledge of React hooks and patterns",
+        "Testing experience with Jest/RTL"
+      ],
+      "benefits": [
+        "High hourly rate",
+        "Remote work option",
+        "Flexible schedule",
+        "Project-based work",
+        "Potential for extension"
+      ],
+      "postedDate": "2024-02-25",
+      "applicationDeadline": "2024-03-25",
+      "status": "active"
+    },
+    {
+      "id": "14",
+      "title": "Database Administrator",
+      "company": "DataManagement Systems",
+      "location": "Phoenix, AZ",
+      "type": "Full-time",
+      "salary": "$95,000 - $125,000",
+      "description": "Database Administrator to manage and optimize our database systems. You'll ensure data integrity, performance, and security across multiple database platforms.",
+      "requirements": [
+        "5+ years of database administration experience",
+        "Expertise in PostgreSQL, MySQL, MongoDB",
+        "Database performance tuning skills",
+        "Backup and recovery experience",
+        "Knowledge of database security practices"
+      ],
+      "benefits": [
+        "Stable work environment",
+        "Health benefits",
+        "Professional development",
+        "Database certification support",
+        "Work-life balance"
+      ],
+      "postedDate": "2024-02-28",
+      "applicationDeadline": "2024-03-28",
+      "status": "active"
+    },
+    {
+      "id": "15",
+      "title": "Software Engineering Manager",
+      "company": "TechLeadership Corp",
+      "location": "San Diego, CA",
+      "type": "Full-time",
+      "salary": "$160,000 - $190,000",
+      "description": "Engineering Manager to lead a team of software developers. You'll be responsible for team growth, project delivery, and technical strategy.",
+      "requirements": [
+        "8+ years of software development experience",
+        "3+ years of engineering management experience",
+        "Strong leadership and communication skills",
+        "Experience with agile methodologies",
+        "Technical background in modern technologies"
+      ],
+      "benefits": [
+        "Leadership role compensation",
+        "Management training programs",
+        "Stock options",
+        "Comprehensive benefits",
+        "Team building budget"
+      ],
+      "postedDate": "2024-03-01",
+      "applicationDeadline": "2024-04-01",
+      "status": "active"
+    },
+    {
+      "id": "16",
+      "title": "API Developer",
+      "company": "APIFirst Technologies",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$105,000 - $135,000",
+      "description": "API Developer to design and build RESTful APIs and GraphQL services. You'll work on high-performance APIs that serve millions of requests daily.",
+      "requirements": [
+        "4+ years of API development experience",
+        "Expertise in REST and GraphQL",
+        "Experience with API documentation and testing",
+        "Knowledge of API security and authentication",
+        "Performance optimization skills"
+      ],
+      "benefits": [
+        "Fully remote position",
+        "Competitive salary",
+        "Health benefits",
+        "Home office setup allowance",
+        "Flexible time zones"
+      ],
+      "postedDate": "2024-03-03",
+      "applicationDeadline": "2024-04-03",
+      "status": "active"
+    },
+    {
+      "id": "17",
+      "title": "Blockchain Developer",
+      "company": "CryptoDevelopers Inc",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$120,000 - $160,000",
+      "description": "Blockchain Developer to build decentralized applications and smart contracts. You'll work on innovative blockchain projects and DeFi protocols.",
+      "requirements": [
+        "3+ years of blockchain development experience",
+        "Proficiency in Solidity and Web3",
+        "Experience with Ethereum, Polygon, or other chains",
+        "Understanding of DeFi protocols",
+        "Knowledge of blockchain security practices"
+      ],
+      "benefits": [
+        "Crypto industry exposure",
+        "Token/equity options",
+        "Remote work flexibility",
+        "Conference and learning budget",
+        "Cutting-edge technology"
+      ],
+      "postedDate": "2024-03-05",
+      "applicationDeadline": "2024-04-05",
+      "status": "active"
+    },
+    {
+      "id": "18",
+      "title": "Technical Writer",
+      "company": "DocumentationPro",
+      "location": "Remote",
+      "type": "Part-time",
+      "salary": "$50,000 - $70,000",
+      "description": "Technical Writer to create comprehensive documentation for software products. You'll work with engineering teams to document APIs, user guides, and technical specifications.",
+      "requirements": [
+        "3+ years of technical writing experience",
+        "Experience documenting software products",
+        "Strong understanding of developer tools",
+        "Excellent written communication skills",
+        "Experience with documentation tools (GitBook, Notion, etc.)"
+      ],
+      "benefits": [
+        "Part-time flexibility",
+        "Remote work",
+        "Documentation tool access",
+        "Professional development",
+        "Collaborative environment"
+      ],
+      "postedDate": "2024-03-08",
+      "applicationDeadline": "2024-04-08",
+      "status": "active"
+    },
+    {
+      "id": "19",
+      "title": "Site Reliability Engineer",
+      "company": "ReliableSystem Solutions",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$135,000 - $165,000",
+      "description": "SRE to ensure the reliability and performance of our production systems. You'll implement monitoring, alerting, and automation to maintain high availability.",
+      "requirements": [
+        "5+ years of SRE/DevOps experience",
+        "Experience with monitoring and observability tools",
+        "Knowledge of infrastructure automation",
+        "Strong scripting and programming skills",
+        "Experience with incident response and postmortems"
+      ],
+      "benefits": [
+        "High-impact role",
+        "Remote work options",
+        "On-call compensation",
+        "Health benefits",
+        "Professional development"
+      ],
+      "postedDate": "2024-03-10",
+      "applicationDeadline": "2024-04-10",
+      "status": "archived"
+    },
+    {
+      "id": "20",
+      "title": "Game Developer",
+      "company": "GameStudio Entertainment",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$90,000 - $120,000",
+      "description": "Game Developer to create engaging mobile and web games. You'll work on game mechanics, graphics programming, and player experience optimization.",
+      "requirements": [
+        "4+ years of game development experience",
+        "Proficiency in Unity or Unreal Engine",
+        "Experience with C# or C++",
+        "Understanding of game design principles",
+        "Mobile game development experience preferred"
+      ],
+      "benefits": [
+        "Creative work environment",
+        "Game development tools access",
+        "Flexible schedule",
+        "Health benefits",
+        "Game industry networking"
+      ],
+      "postedDate": "2024-03-12",
+      "applicationDeadline": "2024-04-12",
+      "status": "archived"
+    },
+    {
+      "id": "21",
+      "title": "Python Developer",
+      "company": "PythonExperts Ltd",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$100,000 - $130,000",
+      "description": "Python Developer to build scalable web applications and data processing systems. You'll work with Django/Flask and modern Python ecosystem.",
+      "requirements": [
+        "4+ years of Python development experience",
+        "Experience with Django or Flask",
+        "Knowledge of Python data libraries (Pandas, NumPy)",
+        "Database integration skills",
+        "RESTful API development experience"
+      ],
+      "benefits": [
+        "Python-focused environment",
+        "Remote work flexibility",
+        "Learning opportunities",
+        "Health benefits",
+        "Open source contribution time"
+      ],
+      "postedDate": "2024-03-15",
+      "applicationDeadline": "2024-04-15",
+      "status": "archived"
+    },
+    {
+      "id": "22",
+      "title": "Java Spring Developer",
+      "company": "EnterpriseJava Corp",
+      "location": "Dallas, TX",
+      "type": "Full-time",
+      "salary": "$110,000 - $140,000",
+      "description": "Java Spring Developer for enterprise application development. You'll build robust, scalable applications using Spring Boot and microservices architecture.",
+      "requirements": [
+        "5+ years of Java development experience",
+        "Expertise in Spring Boot and Spring Framework",
+        "Experience with microservices architecture",
+        "Knowledge of enterprise integration patterns",
+        "Database and JPA/Hibernate experience"
+      ],
+      "benefits": [
+        "Enterprise environment",
+        "Comprehensive benefits",
+        "Professional development",
+        "Stable work environment",
+        "Career growth opportunities"
+      ],
+      "postedDate": "2024-03-18",
+      "applicationDeadline": "2024-04-18",
+      "status": "archived"
+    },
+    {
+      "id": "23",
+      "title": "Golang Backend Developer",
+      "company": "GoTech Solutions",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$115,000 - $145,000",
+      "description": "Golang Backend Developer to build high-performance server applications. You'll work on distributed systems and concurrent programming challenges.",
+      "requirements": [
+        "3+ years of Go programming experience",
+        "Experience with concurrent programming",
+        "Knowledge of distributed systems",
+        "Database and caching systems experience",
+        "Understanding of performance optimization"
+      ],
+      "benefits": [
+        "Go-focused development",
+        "Remote work options",
+        "Performance-oriented culture",
+        "Health benefits",
+        "Technical challenges"
+      ],
+      "postedDate": "2024-03-20",
+      "applicationDeadline": "2024-04-20",
+      "status": "archived"
+    },
+    {
+      "id": "24",
+      "title": "Flutter Mobile Developer",
+      "company": "MobileFlutter Inc",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$95,000 - $125,000",
+      "description": "Flutter Developer to create cross-platform mobile applications. You'll build beautiful, fast mobile apps for iOS and Android platforms.",
+      "requirements": [
+        "3+ years of Flutter development experience",
+        "Proficiency in Dart programming language",
+        "Experience with mobile app architecture",
+        "Knowledge of app store deployment processes",
+        "Understanding of mobile UI/UX principles"
+      ],
+      "benefits": [
+        "Flutter specialization",
+        "Mobile-first development",
+        "Remote work flexibility",
+        "Device testing allowance",
+        "Health benefits"
+      ],
+      "postedDate": "2024-03-22",
+      "applicationDeadline": "2024-04-22",
+      "status": "archived"
+    },
+    {
+      "id": "25",
+      "title": "Ruby on Rails Developer",
+      "company": "RailsExperts LLC",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$100,000 - $130,000",
+      "description": "Ruby on Rails Developer to maintain and enhance existing Rails applications. You'll work on web applications with complex business logic and integrations.",
+      "requirements": [
+        "4+ years of Ruby on Rails experience",
+        "Strong understanding of MVC architecture",
+        "Experience with PostgreSQL and Redis",
+        "Knowledge of background job processing",
+        "Testing experience with RSpec"
+      ],
+      "benefits": [
+        "Rails-focused development",
+        "Remote work options",
+        "Collaborative team environment",
+        "Health benefits",
+        "Professional development budget"
+      ],
+      "postedDate": "2024-03-25",
+      "applicationDeadline": "2024-04-25",
+      "status": "archived"
+    },
+    {
+      "id": "26",
+      "title": "Vue.js Frontend Developer",
+      "company": "VueExperts Inc",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$90,000 - $120,000",
+      "description": "Vue.js Frontend Developer to build modern web applications. You'll work with Vue 3, Composition API, and the latest frontend technologies.",
+      "requirements": [
+        "3+ years of Vue.js development experience",
+        "Experience with Vue 3 and Composition API",
+        "Knowledge of Vuex or Pinia for state management",
+        "Understanding of component-based architecture",
+        "Experience with build tools (Vite, Webpack)"
+      ],
+      "benefits": [
+        "Vue.js specialization",
+        "Modern frontend stack",
+        "Remote work flexibility",
+        "Learning opportunities",
+        "Health benefits"
+      ],
+      "postedDate": "2024-03-28",
+      "applicationDeadline": "2024-04-28",
+      "status": "archived"
+    },
+    {
+      "id": "27",
+      "title": "Angular Developer",
+      "company": "AngularPro Solutions",
+      "location": "Houston, TX",
+      "type": "Full-time",
+      "salary": "$105,000 - $135,000",
+      "description": "Angular Developer to build enterprise web applications. You'll work with Angular latest versions and enterprise-grade application development.",
+      "requirements": [
+        "4+ years of Angular development experience",
+        "Experience with TypeScript and RxJS",
+        "Knowledge of Angular Material and PrimeNG",
+        "Understanding of enterprise application patterns",
+        "Experience with Angular testing frameworks"
+      ],
+      "benefits": [
+        "Enterprise development focus",
+        "Angular specialization",
+        "Comprehensive benefits",
+        "Professional development",
+        "Stable work environment"
+      ],
+      "postedDate": "2024-03-30",
+      "applicationDeadline": "2024-04-30",
+      "status": "archived"
+    },
+    {
+      "id": "28",
+      "title": "PHP Laravel Developer",
+      "company": "PHPDevelopment Corp",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$85,000 - $115,000",
+      "description": "PHP Laravel Developer to build and maintain web applications. You'll work on e-commerce platforms and content management systems.",
+      "requirements": [
+        "4+ years of PHP development experience",
+        "Expertise in Laravel framework",
+        "Experience with MySQL and database optimization",
+        "Knowledge of payment gateway integrations",
+        "Understanding of web security practices"
+      ],
+      "benefits": [
+        "PHP/Laravel focus",
+        "E-commerce development",
+        "Remote work options",
+        "Health benefits",
+        "Flexible schedule"
+      ],
+      "postedDate": "2024-04-01",
+      "applicationDeadline": "2024-05-01",
+      "status": "archived"
+    },
+    {
+      "id": "29",
+      "title": "Salesforce Developer",
+      "company": "CRM Solutions Inc",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "$120,000 - $150,000",
+      "description": "Salesforce Developer to customize and extend Salesforce platform. You'll work on complex business processes and integrations with third-party systems.",
+      "requirements": [
+        "3+ years of Salesforce development experience",
+        "Proficiency in Apex, Lightning Components, and SOQL",
+        "Experience with Salesforce integrations and APIs",
+        "Knowledge of Salesforce best practices and governance",
+        "Salesforce certifications preferred"
+      ],
+      "benefits": [
+        "Salesforce ecosystem focus",
+        "High demand skills",
+        "Certification support",
+        "Remote work flexibility",
+        "Comprehensive benefits"
+      ],
+      "postedDate": "2024-04-03",
+      "applicationDeadline": "2024-05-03",
+      "status": "archived"
+    },
+    {
+      "id": "30",
+      "title": "WordPress Developer",
+      "company": "WebAgency Pro",
+      "location": "Remote",
+      "type": "Part-time",
+      "salary": "$40,000 - $60,000",
+      "description": "WordPress Developer to create custom themes and plugins. You'll work on client websites and maintain existing WordPress installations.",
+      "requirements": [
+        "3+ years of WordPress development experience",
+        "Proficiency in PHP, HTML, CSS, JavaScript",
+        "Experience with custom theme and plugin development",
+        "Knowledge of WordPress best practices and security",
+        "Understanding of responsive design principles"
+      ],
+      "benefits": [
+        "Part-time flexibility",
+        "WordPress specialization",
+        "Remote work",
+        "Client variety",
+        "Creative projects"
+      ],
+      "postedDate": "2024-04-05",
+      "applicationDeadline": "2024-05-05",
+      "status": "archived"
+    }
+  ]
+}
+

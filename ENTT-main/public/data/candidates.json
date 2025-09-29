@@ -1,0 +1,1188 @@
+{
+  "candidates": [
+    {
+      "id": "1",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@email.com",
+      "phone": "+1-555-0101",
+      "stage": "applied",
+      "jobId": "1",
+      "appliedAt": "2024-01-16T09:30:00.000Z",
+      "updatedAt": "2024-01-16T09:30:00.000Z",
+      "resume": "sarah-johnson-resume.pdf",
+      "notes": [
+        {
+          "id": "note-1",
+          "content": "Strong React background, looking forward to the interview with @john-doe",
+          "author": "HR Manager",
+          "createdAt": "2024-01-16T10:00:00.000Z",
+          "mentions": ["john-doe"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-1",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-16T09:30:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Michael Chen",
+      "email": "michael.chen@email.com",
+      "phone": "+1-555-0102",
+      "stage": "screening",
+      "jobId": "1",
+      "appliedAt": "2024-01-17T14:20:00.000Z",
+      "updatedAt": "2024-01-18T11:00:00.000Z",
+      "resume": "michael-chen-resume.pdf",
+      "notes": [
+        {
+          "id": "note-2",
+          "content": "Excellent TypeScript skills, passed initial screening. Schedule technical interview with @jane-smith",
+          "author": "Tech Lead",
+          "createdAt": "2024-01-18T11:00:00.000Z",
+          "mentions": ["jane-smith"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-2",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-17T14:20:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-3",
+          "type": "stage_change",
+          "description": "Moved to screening stage",
+          "timestamp": "2024-01-18T11:00:00.000Z",
+          "data": {
+            "previousStage": "applied",
+            "newStage": "screening",
+            "author": "HR Manager"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Emily Rodriguez",
+      "email": "emily.rodriguez@email.com",
+      "phone": "+1-555-0103",
+      "stage": "technical",
+      "jobId": "2",
+      "appliedAt": "2024-01-18T08:45:00.000Z",
+      "updatedAt": "2024-01-20T16:30:00.000Z",
+      "resume": "emily-rodriguez-resume.pdf",
+      "notes": [
+        {
+          "id": "note-3",
+          "content": "Strong backend experience with Node.js and Python. Technical interview scheduled for tomorrow with @alex-williams",
+          "author": "Senior Developer",
+          "createdAt": "2024-01-20T16:30:00.000Z",
+          "mentions": ["alex-williams"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-4",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-18T08:45:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-5",
+          "type": "stage_change",
+          "description": "Passed screening, moved to technical round",
+          "timestamp": "2024-01-20T16:30:00.000Z",
+          "data": {
+            "previousStage": "screening",
+            "newStage": "technical",
+            "author": "Tech Lead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "David Thompson",
+      "email": "david.thompson@email.com",
+      "phone": "+1-555-0104",
+      "stage": "final",
+      "jobId": "3",
+      "appliedAt": "2024-01-19T10:15:00.000Z",
+      "updatedAt": "2024-01-22T14:45:00.000Z",
+      "resume": "david-thompson-resume.pdf",
+      "notes": [
+        {
+          "id": "note-4",
+          "content": "Excellent full-stack skills, great cultural fit. Final interview with @sarah-manager scheduled",
+          "author": "Engineering Manager",
+          "createdAt": "2024-01-22T14:45:00.000Z",
+          "mentions": ["sarah-manager"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-6",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-19T10:15:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-7",
+          "type": "stage_change",
+          "description": "Moved to final interview stage",
+          "timestamp": "2024-01-22T14:45:00.000Z",
+          "data": {
+            "previousStage": "technical",
+            "newStage": "final",
+            "author": "Engineering Manager"
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Jessica Wang",
+      "email": "jessica.wang@email.com",
+      "phone": "+1-555-0105",
+      "stage": "offer",
+      "jobId": "4",
+      "appliedAt": "2024-01-20T13:30:00.000Z",
+      "updatedAt": "2024-01-25T09:20:00.000Z",
+      "resume": "jessica-wang-resume.pdf",
+      "notes": [
+        {
+          "id": "note-5",
+          "content": "Outstanding DevOps skills, offer extended. Waiting for response. Follow up with @hr-team next week",
+          "author": "CTO",
+          "createdAt": "2024-01-25T09:20:00.000Z",
+          "mentions": ["hr-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-8",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-20T13:30:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-9",
+          "type": "stage_change",
+          "description": "Offer extended",
+          "timestamp": "2024-01-25T09:20:00.000Z",
+          "data": {
+            "previousStage": "final",
+            "newStage": "offer",
+            "author": "CTO"
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Robert Martinez",
+      "email": "robert.martinez@email.com",
+      "phone": "+1-555-0106",
+      "stage": "hired",
+      "jobId": "5",
+      "appliedAt": "2024-01-21T11:00:00.000Z",
+      "updatedAt": "2024-01-28T15:30:00.000Z",
+      "resume": "robert-martinez-resume.pdf",
+      "notes": [
+        {
+          "id": "note-6",
+          "content": "Excellent mobile developer, accepted offer. Start date confirmed for Feb 1st. Onboarding with @onboarding-team",
+          "author": "HR Director",
+          "createdAt": "2024-01-28T15:30:00.000Z",
+          "mentions": ["onboarding-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-10",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-21T11:00:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-11",
+          "type": "stage_change",
+          "description": "Offer accepted, hired!",
+          "timestamp": "2024-01-28T15:30:00.000Z",
+          "data": {
+            "previousStage": "offer",
+            "newStage": "hired",
+            "author": "HR Director"
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Amanda Foster",
+      "email": "amanda.foster@email.com",
+      "phone": "+1-555-0107",
+      "stage": "rejected",
+      "jobId": "1",
+      "appliedAt": "2024-01-22T16:45:00.000Z",
+      "updatedAt": "2024-01-24T10:15:00.000Z",
+      "resume": "amanda-foster-resume.pdf",
+      "notes": [
+        {
+          "id": "note-7",
+          "content": "Skills don't match current requirements. Sent rejection email with feedback to @candidate-communications",
+          "author": "Hiring Manager",
+          "createdAt": "2024-01-24T10:15:00.000Z",
+          "mentions": ["candidate-communications"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-12",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-22T16:45:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-13",
+          "type": "stage_change",
+          "description": "Application rejected",
+          "timestamp": "2024-01-24T10:15:00.000Z",
+          "data": {
+            "previousStage": "screening",
+            "newStage": "rejected",
+            "author": "Hiring Manager"
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Kevin Park",
+      "email": "kevin.park@email.com",
+      "phone": "+1-555-0108",
+      "stage": "applied",
+      "jobId": "6",
+      "appliedAt": "2024-01-23T12:20:00.000Z",
+      "updatedAt": "2024-01-23T12:20:00.000Z",
+      "resume": "kevin-park-resume.pdf",
+      "notes": [],
+      "timeline": [
+        {
+          "id": "timeline-14",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-23T12:20:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Lisa Anderson",
+      "email": "lisa.anderson@email.com",
+      "phone": "+1-555-0109",
+      "stage": "screening",
+      "jobId": "7",
+      "appliedAt": "2024-01-24T09:10:00.000Z",
+      "updatedAt": "2024-01-25T14:30:00.000Z",
+      "resume": "lisa-anderson-resume.pdf",
+      "notes": [
+        {
+          "id": "note-8",
+          "content": "Great design portfolio, moving to next round. Schedule design challenge with @design-team",
+          "author": "Design Director",
+          "createdAt": "2024-01-25T14:30:00.000Z",
+          "mentions": ["design-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-15",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-24T09:10:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-16",
+          "type": "stage_change",
+          "description": "Moved to screening stage",
+          "timestamp": "2024-01-25T14:30:00.000Z",
+          "data": {
+            "previousStage": "applied",
+            "newStage": "screening",
+            "author": "Design Director"
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "James Wilson",
+      "email": "james.wilson@email.com",
+      "phone": "+1-555-0110",
+      "stage": "technical",
+      "jobId": "8",
+      "appliedAt": "2024-01-25T15:40:00.000Z",
+      "updatedAt": "2024-01-27T11:20:00.000Z",
+      "resume": "james-wilson-resume.pdf",
+      "notes": [
+        {
+          "id": "note-9",
+          "content": "Strong product sense, good analytical skills. Technical PM interview scheduled with @product-team",
+          "author": "VP Product",
+          "createdAt": "2024-01-27T11:20:00.000Z",
+          "mentions": ["product-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-17",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-25T15:40:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-18",
+          "type": "stage_change",
+          "description": "Moved to technical interview",
+          "timestamp": "2024-01-27T11:20:00.000Z",
+          "data": {
+            "previousStage": "screening",
+            "newStage": "technical",
+            "author": "VP Product"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Maria Garcia",
+      "email": "maria.garcia@email.com",
+      "phone": "+1-555-0111",
+      "stage": "applied",
+      "jobId": "9",
+      "appliedAt": "2024-01-26T10:30:00.000Z",
+      "updatedAt": "2024-01-26T10:30:00.000Z",
+      "resume": "maria-garcia-resume.pdf",
+      "notes": [],
+      "timeline": [
+        {
+          "id": "timeline-19",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-26T10:30:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Christopher Lee",
+      "email": "christopher.lee@email.com",
+      "phone": "+1-555-0112",
+      "stage": "final",
+      "jobId": "10",
+      "appliedAt": "2024-01-27T08:15:00.000Z",
+      "updatedAt": "2024-01-30T13:45:00.000Z",
+      "resume": "christopher-lee-resume.pdf",
+      "notes": [
+        {
+          "id": "note-10",
+          "content": "Excellent security background, CISSP certified. Final interview with @security-team and @ciso",
+          "author": "Security Manager",
+          "createdAt": "2024-01-30T13:45:00.000Z",
+          "mentions": ["security-team", "ciso"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-20",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-27T08:15:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-21",
+          "type": "stage_change",
+          "description": "Advanced to final interview",
+          "timestamp": "2024-01-30T13:45:00.000Z",
+          "data": {
+            "previousStage": "technical",
+            "newStage": "final",
+            "author": "Security Manager"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Ashley Taylor",
+      "email": "ashley.taylor@email.com",
+      "phone": "+1-555-0113",
+      "stage": "screening",
+      "jobId": "11",
+      "appliedAt": "2024-01-28T14:20:00.000Z",
+      "updatedAt": "2024-01-29T16:10:00.000Z",
+      "resume": "ashley-taylor-resume.pdf",
+      "notes": [
+        {
+          "id": "note-11",
+          "content": "PhD in ML, impressive research background. Schedule technical deep-dive with @ml-team",
+          "author": "AI Research Lead",
+          "createdAt": "2024-01-29T16:10:00.000Z",
+          "mentions": ["ml-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-22",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-28T14:20:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-23",
+          "type": "stage_change",
+          "description": "Moved to screening",
+          "timestamp": "2024-01-29T16:10:00.000Z",
+          "data": {
+            "previousStage": "applied",
+            "newStage": "screening",
+            "author": "AI Research Lead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Daniel Brown",
+      "email": "daniel.brown@email.com",
+      "phone": "+1-555-0114",
+      "stage": "offer",
+      "jobId": "12",
+      "appliedAt": "2024-01-29T11:50:00.000Z",
+      "updatedAt": "2024-02-02T10:30:00.000Z",
+      "resume": "daniel-brown-resume.pdf",
+      "notes": [
+        {
+          "id": "note-12",
+          "content": "Outstanding cloud architecture experience, offer extended. Negotiating start date with @hr-team",
+          "author": "Engineering Director",
+          "createdAt": "2024-02-02T10:30:00.000Z",
+          "mentions": ["hr-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-24",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-29T11:50:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-25",
+          "type": "stage_change",
+          "description": "Offer extended",
+          "timestamp": "2024-02-02T10:30:00.000Z",
+          "data": {
+            "previousStage": "final",
+            "newStage": "offer",
+            "author": "Engineering Director"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Nicole Davis",
+      "email": "nicole.davis@email.com",
+      "phone": "+1-555-0115",
+      "stage": "applied",
+      "jobId": "13",
+      "appliedAt": "2024-01-30T13:25:00.000Z",
+      "updatedAt": "2024-01-30T13:25:00.000Z",
+      "resume": "nicole-davis-resume.pdf",
+      "notes": [],
+      "timeline": [
+        {
+          "id": "timeline-26",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-30T13:25:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Ryan Clark",
+      "email": "ryan.clark@email.com",
+      "phone": "+1-555-0116",
+      "stage": "technical",
+      "jobId": "14",
+      "appliedAt": "2024-01-31T09:40:00.000Z",
+      "updatedAt": "2024-02-03T15:20:00.000Z",
+      "resume": "ryan-clark-resume.pdf",
+      "notes": [
+        {
+          "id": "note-13",
+          "content": "Strong DBA experience with PostgreSQL and performance tuning. Technical interview with @database-team scheduled",
+          "author": "Senior DBA",
+          "createdAt": "2024-02-03T15:20:00.000Z",
+          "mentions": ["database-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-27",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-01-31T09:40:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-28",
+          "type": "stage_change",
+          "description": "Moved to technical round",
+          "timestamp": "2024-02-03T15:20:00.000Z",
+          "data": {
+            "previousStage": "screening",
+            "newStage": "technical",
+            "author": "Senior DBA"
+          }
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Stephanie White",
+      "email": "stephanie.white@email.com",
+      "phone": "+1-555-0117",
+      "stage": "hired",
+      "jobId": "15",
+      "appliedAt": "2024-02-01T12:10:00.000Z",
+      "updatedAt": "2024-02-08T14:45:00.000Z",
+      "resume": "stephanie-white-resume.pdf",
+      "notes": [
+        {
+          "id": "note-14",
+          "content": "Excellent leadership skills, great fit for engineering manager role. Offer accepted, starting March 1st. Welcome to the team! @engineering-team",
+          "author": "VP Engineering",
+          "createdAt": "2024-02-08T14:45:00.000Z",
+          "mentions": ["engineering-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-29",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-01T12:10:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-30",
+          "type": "stage_change",
+          "description": "Hired as Engineering Manager",
+          "timestamp": "2024-02-08T14:45:00.000Z",
+          "data": {
+            "previousStage": "offer",
+            "newStage": "hired",
+            "author": "VP Engineering"
+          }
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Mark Johnson",
+      "email": "mark.johnson@email.com",
+      "phone": "+1-555-0118",
+      "stage": "screening",
+      "jobId": "16",
+      "appliedAt": "2024-02-02T10:35:00.000Z",
+      "updatedAt": "2024-02-04T11:15:00.000Z",
+      "resume": "mark-johnson-resume.pdf",
+      "notes": [
+        {
+          "id": "note-15",
+          "content": "Good API development experience, familiar with GraphQL. Phone screening scheduled with @api-team",
+          "author": "Lead Developer",
+          "createdAt": "2024-02-04T11:15:00.000Z",
+          "mentions": ["api-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-31",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-02T10:35:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-32",
+          "type": "stage_change",
+          "description": "Moved to screening",
+          "timestamp": "2024-02-04T11:15:00.000Z",
+          "data": {
+            "previousStage": "applied",
+            "newStage": "screening",
+            "author": "Lead Developer"
+          }
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Jennifer Lopez",
+      "email": "jennifer.lopez@email.com",
+      "phone": "+1-555-0119",
+      "stage": "final",
+      "jobId": "17",
+      "appliedAt": "2024-02-03T16:20:00.000Z",
+      "updatedAt": "2024-02-07T13:30:00.000Z",
+      "resume": "jennifer-lopez-resume.pdf",
+      "notes": [
+        {
+          "id": "note-16",
+          "content": "Impressive blockchain and DeFi experience. Final interview with @blockchain-team and @cto tomorrow",
+          "author": "Blockchain Lead",
+          "createdAt": "2024-02-07T13:30:00.000Z",
+          "mentions": ["blockchain-team", "cto"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-33",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-03T16:20:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-34",
+          "type": "stage_change",
+          "description": "Advanced to final interview",
+          "timestamp": "2024-02-07T13:30:00.000Z",
+          "data": {
+            "previousStage": "technical",
+            "newStage": "final",
+            "author": "Blockchain Lead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Brian Miller",
+      "email": "brian.miller@email.com",
+      "phone": "+1-555-0120",
+      "stage": "rejected",
+      "jobId": "18",
+      "appliedAt": "2024-02-04T08:45:00.000Z",
+      "updatedAt": "2024-02-06T14:20:00.000Z",
+      "resume": "brian-miller-resume.pdf",
+      "notes": [
+        {
+          "id": "note-17",
+          "content": "Lacks sufficient technical writing experience for our needs. Rejection email sent by @hr-communications",
+          "author": "Documentation Manager",
+          "createdAt": "2024-02-06T14:20:00.000Z",
+          "mentions": ["hr-communications"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-35",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-04T08:45:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-36",
+          "type": "stage_change",
+          "description": "Application rejected",
+          "timestamp": "2024-02-06T14:20:00.000Z",
+          "data": {
+            "previousStage": "screening",
+            "newStage": "rejected",
+            "author": "Documentation Manager"
+          }
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Rachel Green",
+      "email": "rachel.green@email.com",
+      "phone": "+1-555-0121",
+      "stage": "applied",
+      "jobId": "19",
+      "appliedAt": "2024-02-05T11:30:00.000Z",
+      "updatedAt": "2024-02-05T11:30:00.000Z",
+      "resume": "rachel-green-resume.pdf",
+      "notes": [],
+      "timeline": [
+        {
+          "id": "timeline-37",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-05T11:30:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Andrew Davis",
+      "email": "andrew.davis@email.com",
+      "phone": "+1-555-0122",
+      "stage": "screening",
+      "jobId": "20",
+      "appliedAt": "2024-02-06T15:15:00.000Z",
+      "updatedAt": "2024-02-08T10:45:00.000Z",
+      "resume": "andrew-davis-resume.pdf",
+      "notes": [
+        {
+          "id": "note-18",
+          "content": "Game development experience with Unity, good portfolio. Screening call scheduled with @game-team",
+          "author": "Game Director",
+          "createdAt": "2024-02-08T10:45:00.000Z",
+          "mentions": ["game-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-38",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-06T15:15:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-39",
+          "type": "stage_change",
+          "description": "Moved to screening",
+          "timestamp": "2024-02-08T10:45:00.000Z",
+          "data": {
+            "previousStage": "applied",
+            "newStage": "screening",
+            "author": "Game Director"
+          }
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Michelle Kim",
+      "email": "michelle.kim@email.com",
+      "phone": "+1-555-0123",
+      "stage": "technical",
+      "jobId": "21",
+      "appliedAt": "2024-02-07T09:20:00.000Z",
+      "updatedAt": "2024-02-10T12:15:00.000Z",
+      "resume": "michelle-kim-resume.pdf",
+      "notes": [
+        {
+          "id": "note-19",
+          "content": "Strong Python and Django background, good problem-solving skills. Technical interview with @python-team scheduled",
+          "author": "Python Lead",
+          "createdAt": "2024-02-10T12:15:00.000Z",
+          "mentions": ["python-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-40",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-07T09:20:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-41",
+          "type": "stage_change",
+          "description": "Moved to technical round",
+          "timestamp": "2024-02-10T12:15:00.000Z",
+          "data": {
+            "previousStage": "screening",
+            "newStage": "technical",
+            "author": "Python Lead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Steven Harris",
+      "email": "steven.harris@email.com",
+      "phone": "+1-555-0124",
+      "stage": "final",
+      "jobId": "22",
+      "appliedAt": "2024-02-08T14:40:00.000Z",
+      "updatedAt": "2024-02-12T16:20:00.000Z",
+      "resume": "steven-harris-resume.pdf",
+      "notes": [
+        {
+          "id": "note-20",
+          "content": "Excellent Java and Spring Boot experience, enterprise background. Final interview with @java-team and @architect",
+          "author": "Java Architect",
+          "createdAt": "2024-02-12T16:20:00.000Z",
+          "mentions": ["java-team", "architect"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-42",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-08T14:40:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-43",
+          "type": "stage_change",
+          "description": "Advanced to final interview",
+          "timestamp": "2024-02-12T16:20:00.000Z",
+          "data": {
+            "previousStage": "technical",
+            "newStage": "final",
+            "author": "Java Architect"
+          }
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Laura Wilson",
+      "email": "laura.wilson@email.com",
+      "phone": "+1-555-0125",
+      "stage": "offer",
+      "jobId": "23",
+      "appliedAt": "2024-02-09T12:55:00.000Z",
+      "updatedAt": "2024-02-15T11:30:00.000Z",
+      "resume": "laura-wilson-resume.pdf",
+      "notes": [
+        {
+          "id": "note-21",
+          "content": "Outstanding Go programming skills, excellent system design. Offer extended, awaiting response. @hr-team handling negotiations",
+          "author": "Go Tech Lead",
+          "createdAt": "2024-02-15T11:30:00.000Z",
+          "mentions": ["hr-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-44",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-09T12:55:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-45",
+          "type": "stage_change",
+          "description": "Offer extended",
+          "timestamp": "2024-02-15T11:30:00.000Z",
+          "data": {
+            "previousStage": "final",
+            "newStage": "offer",
+            "author": "Go Tech Lead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Thomas Anderson",
+      "email": "thomas.anderson@email.com",
+      "phone": "+1-555-0126",
+      "stage": "applied",
+      "jobId": "24",
+      "appliedAt": "2024-02-10T10:15:00.000Z",
+      "updatedAt": "2024-02-10T10:15:00.000Z",
+      "resume": "thomas-anderson-resume.pdf",
+      "notes": [],
+      "timeline": [
+        {
+          "id": "timeline-46",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-10T10:15:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Christina Moore",
+      "email": "christina.moore@email.com",
+      "phone": "+1-555-0127",
+      "stage": "screening",
+      "jobId": "25",
+      "appliedAt": "2024-02-11T13:45:00.000Z",
+      "updatedAt": "2024-02-13T09:20:00.000Z",
+      "resume": "christina-moore-resume.pdf",
+      "notes": [
+        {
+          "id": "note-22",
+          "content": "Strong Ruby on Rails experience, good test coverage practices. Screening call with @rails-team scheduled",
+          "author": "Rails Lead",
+          "createdAt": "2024-02-13T09:20:00.000Z",
+          "mentions": ["rails-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-47",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-11T13:45:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-48",
+          "type": "stage_change",
+          "description": "Moved to screening",
+          "timestamp": "2024-02-13T09:20:00.000Z",
+          "data": {
+            "previousStage": "applied",
+            "newStage": "screening",
+            "author": "Rails Lead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Jonathan Taylor",
+      "email": "jonathan.taylor@email.com",
+      "phone": "+1-555-0128",
+      "stage": "technical",
+      "jobId": "26",
+      "appliedAt": "2024-02-12T11:20:00.000Z",
+      "updatedAt": "2024-02-15T14:10:00.000Z",
+      "resume": "jonathan-taylor-resume.pdf",
+      "notes": [
+        {
+          "id": "note-23",
+          "content": "Great Vue.js skills, modern frontend approach. Technical interview with @vue-team scheduled for next week",
+          "author": "Frontend Lead",
+          "createdAt": "2024-02-15T14:10:00.000Z",
+          "mentions": ["vue-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-49",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-12T11:20:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-50",
+          "type": "stage_change",
+          "description": "Moved to technical round",
+          "timestamp": "2024-02-15T14:10:00.000Z",
+          "data": {
+            "previousStage": "screening",
+            "newStage": "technical",
+            "author": "Frontend Lead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Amy Thompson",
+      "email": "amy.thompson@email.com",
+      "phone": "+1-555-0129",
+      "stage": "hired",
+      "jobId": "27",
+      "appliedAt": "2024-02-13T16:30:00.000Z",
+      "updatedAt": "2024-02-20T12:45:00.000Z",
+      "resume": "amy-thompson-resume.pdf",
+      "notes": [
+        {
+          "id": "note-24",
+          "content": "Excellent Angular developer, great team fit. Offer accepted, starting March 15th. Welcome aboard! @angular-team",
+          "author": "Angular Lead",
+          "createdAt": "2024-02-20T12:45:00.000Z",
+          "mentions": ["angular-team"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-51",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-13T16:30:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-52",
+          "type": "stage_change",
+          "description": "Hired as Angular Developer",
+          "timestamp": "2024-02-20T12:45:00.000Z",
+          "data": {
+            "previousStage": "offer",
+            "newStage": "hired",
+            "author": "Angular Lead"
+          }
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Patrick O'Connor",
+      "email": "patrick.oconnor@email.com",
+      "phone": "+1-555-0130",
+      "stage": "final",
+      "jobId": "28",
+      "appliedAt": "2024-02-14T08:50:00.000Z",
+      "updatedAt": "2024-02-18T15:35:00.000Z",
+      "resume": "patrick-oconnor-resume.pdf",
+      "notes": [
+        {
+          "id": "note-25",
+          "content": "Strong PHP and Laravel skills, e-commerce experience. Final interview with @php-team and @ecommerce-lead scheduled",
+          "author": "PHP Architect",
+          "createdAt": "2024-02-18T15:35:00.000Z",
+          "mentions": ["php-team", "ecommerce-lead"]
+        }
+      ],
+      "timeline": [
+        {
+          "id": "timeline-53",
+          "type": "stage_change",
+          "description": "Application submitted",
+          "timestamp": "2024-02-14T08:50:00.000Z",
+          "data": {
+            "newStage": "applied",
+            "author": "System"
+          }
+        },
+        {
+          "id": "timeline-54",
+          "type": "stage_change",
+          "description": "Advanced to final interview",
+          "timestamp": "2024-02-18T15:35:00.000Z",
+          "data": {
+            "previousStage": "technical",
+            "newStage": "final",
+            "author": "PHP Architect"
+          }
+        }
+      ]
+    }
+  ]
+}
